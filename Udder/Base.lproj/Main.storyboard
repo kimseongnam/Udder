@@ -18,22 +18,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7X-aS-mlS">
-                                <rect key="frame" x="156" y="69" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7X-aS-mlS">
+                                <rect key="frame" x="156" y="69" width="60" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rfC-CE-1QO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5N-s5-X9r">
-                                <rect key="frame" x="98" y="132" width="179" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5N-s5-X9r">
+                                <rect key="frame" x="97.5" y="132" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZwL-D2-d9N">
+                                <rect key="frame" x="67.5" y="269.5" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="QZA-ne-aOk"/>
+                                    <constraint firstAttribute="width" constant="240" id="pjs-DQ-QMu"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.66666666669999997" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZwL-D2-d9N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FUd-jo-2by"/>
+                            <constraint firstItem="ZwL-D2-d9N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="H1U-Ep-kkp"/>
+                            <constraint firstItem="U7X-aS-mlS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="QTS-p3-AT2"/>
+                            <constraint firstItem="O5N-s5-X9r" firstAttribute="top" secondItem="U7X-aS-mlS" secondAttribute="bottom" constant="42" id="aEa-ES-mvI"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="U7X-aS-mlS" secondAttribute="trailing" constant="20" symbolic="YES" id="akX-Oo-iF3"/>
+                            <constraint firstItem="U7X-aS-mlS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="ghM-qh-NhV"/>
+                            <constraint firstItem="O5N-s5-X9r" firstAttribute="centerX" secondItem="ZwL-D2-d9N" secondAttribute="centerX" id="po9-3M-gAs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
