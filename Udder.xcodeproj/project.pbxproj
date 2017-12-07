@@ -38,8 +38,8 @@
 		36E00E7B1FD99FE10014F794 = {
 			isa = PBXGroup;
 			children = (
-				36E00E861FD99FE10014F794 /* Udder */,
 				36E00E851FD99FE10014F794 /* Products */,
+				36E00E861FD99FE10014F794 /* Udder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				36E00E871FD99FE10014F794 /* AppDelegate.swift */,
-				36E00E891FD99FE10014F794 /* ViewController.swift */,
-				36E00E8B1FD99FE10014F794 /* Main.storyboard */,
 				36E00E8E1FD99FE10014F794 /* Assets.xcassets */,
-				36E00E901FD99FE10014F794 /* LaunchScreen.storyboard */,
 				36E00E931FD99FE10014F794 /* Info.plist */,
+				36E00E901FD99FE10014F794 /* LaunchScreen.storyboard */,
+				36E00E8B1FD99FE10014F794 /* Main.storyboard */,
+				36E00E891FD99FE10014F794 /* ViewController.swift */,
 			);
 			path = Udder;
 			sourceTree = "<group>";
